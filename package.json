@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "author": "cdl235 <chudelong666@163.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@umijs/plugin-sass": "^1.1.1",
+    "antd-mobile": "^5.20.0",
+    "koa": "^2.13.4",
+    "koa-router": "^12.0.0",
+    "nodemon": "^2.0.19",
+    "umi": "^4.0.9",
+    "umi-request": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.2",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "postcss": "^8.4.14",
+    "postcss-pxtorem": "^6.0.0",
+    "typescript": "^4.1.2"
+  }
+}
